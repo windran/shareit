@@ -16,7 +16,7 @@
 
 CI_ENVIRONMENT = development
 
-Config\BscTokenConfig.address = 0x12bb890508c125661e03b09ec06e404bc9289040
+Config\BscTokenConfig.address = 0xf9e45bf69d369d3e1ad2e16bd3ec4006c330f33a
 
 #--------------------------------------------------------------------
 # APP

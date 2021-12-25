@@ -350,13 +350,13 @@
 										<div class="col-6 col-xxl-6 col-lg-3">
 											<div class="token-info-item color-1 animated" data-animate="fadeInUp" data-delay="0.7">
 												<div class="token-info-title">Token Name</div>
-												<h4 class="token-info-des">SHAREit</h4>
+												<h4 class="token-info-des"><?= $tokenInfo->name ?></h4>
 											</div>
 										</div>
 										<div class="col-6 col-xxl-6 col-lg-3">
 											<div class="token-info-item color-1 animated" data-animate="fadeInUp" data-delay="0.7">
 												<div class="token-info-title">Token Symbol</div>
-												<h4 class="token-info-des">SHARE</h4>
+												<h4 class="token-info-des"><?= $tokenInfo->symbol ?></h4>
 											</div>
 										</div>
 										<div class="col-6 col-xxl-6 col-lg-3">
@@ -404,7 +404,9 @@
 										<div class="col-6 col-xxl-6 col-lg-3">
 											<div class="token-info-item color-5 animated" data-animate="fadeInUp" data-delay="0.9">
 												<div class="token-info-title">Contract</div>
-												<h4 class="token-info-des"><?= $tokenInfo->contract_address ?></h4>
+												<a href="https://bscscan.com/token/<?= $tokenInfo->contract_address ?>" target="_blank">
+													<h4 class="token-info-des"><?= $tokenInfo->contract_address ?></h4>
+												</a>
 											</div>
 										</div>
 									</div>
