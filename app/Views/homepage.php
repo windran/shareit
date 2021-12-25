@@ -6,7 +6,7 @@
 	<meta name="author" content="SHAREit">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
-	
+
 	<!-- Fav Icon  -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?= base_url('') ?>/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="<?= base_url('') ?>/favicon/apple-icon-60x60.png">
@@ -25,10 +25,10 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="<?= base_url('') ?>/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	
+
 	<!-- Site Title  -->
 	<title>SHAREit - Community Driven Project</title>
-	
+
 	<!-- Bundle and Base CSS -->
 	<link rel="stylesheet" href="<?= base_url('') ?>/assets/css/vendor.bundle.css?ver=1930">
 	<link rel="stylesheet" href="<?= base_url('') ?>/assets/css/style-shareit.css?ver=1930" id="changeTheme">

@@ -14,7 +14,9 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+CI_ENVIRONMENT = development
+
+Config\BscTokenConfig.address = 0x12bb890508c125661e03b09ec06e404bc9289040
 
 #--------------------------------------------------------------------
 # APP

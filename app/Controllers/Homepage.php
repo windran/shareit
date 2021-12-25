@@ -2,10 +2,15 @@
 
 namespace App\Controllers;
 
+
 class Homepage extends BaseController
 {
+
     public function index()
-    {        
-        return view('homepage');
+    {
+        helper('general');
+        $tokenEntity = getTokenInfo();
+        $vars['tokenInfo'] = $tokenEntity;
+        return view('homepage', $vars);
     }
 }
