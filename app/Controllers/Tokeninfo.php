@@ -85,8 +85,8 @@ class Tokeninfo extends BaseController
         }
 
         file_put_contents($FILE_PATH, json_encode($tokenData));
-        // $contents = file_get_contents($FILE_PATH);
-        // var_dump(json_decode($contents, true));
+        $contents = file_get_contents($FILE_PATH);
+        echo $contents;
         // log_message('info', 'update token success');
     }
 
