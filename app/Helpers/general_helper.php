@@ -16,8 +16,8 @@ function getTokenInfo()
 
     $tokenEntity = new Entity();
     $tokenEntity->contract_address = $tokenConfig->address;
-    $tokenEntity->name = '';
-    $tokenEntity->symbol = '';
+    $tokenEntity->name = $tokenConfig->name;
+    $tokenEntity->symbol = $tokenConfig->symbol;
 
     $tokenEntity->total_supply = 0;
     $tokenEntity->total_holder = 0;
