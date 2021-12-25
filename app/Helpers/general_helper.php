@@ -3,7 +3,7 @@
 use CodeIgniter\Entity\Entity;
 use CodeIgniter\Files\File;
 use CodeIgniter\I18n\Time;
-
+use Config\BscTokenConfig;
 
 /**
  * Get token info
@@ -12,7 +12,10 @@ use CodeIgniter\I18n\Time;
  */
 function getTokenInfo()
 {
+    $tokenConfig = new BscTokenConfig();
+
     $tokenEntity = new Entity();
+    $tokenEntity->contract_address = $tokenConfig->address;
     $tokenEntity->name = '';
     $tokenEntity->symbol = '';
 

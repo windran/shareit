@@ -61,6 +61,7 @@ class Tokeninfo extends BaseController
             $totalTransfer = $this->tofloat($totalTransfer);
 
             $tokenData = new Entity();
+            $tokenData->contract_address = $contractAddress;
             $tokenData->name = $tokenName;
             $tokenData->symbol = $tokenSymbol;
 
