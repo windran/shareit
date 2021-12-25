@@ -1,3 +1,9 @@
+<?php
+
+use Config\BscTokenConfig;
+
+$tokenConfig = new BscTokenConfig();
+?>
 <!DOCTYPE html>
 <html lang="en-us" class="js">
 
@@ -60,10 +66,10 @@
 				<footer class="pb-5 tc-light">
 					<ul class="social mb-3">
 						<li>
-							<a href="#"><em class="social-icon fab fa-twitter"></em></a>
+							<a target="_blank" href="<?= $tokenConfig->twitter ?>"><em class="social-icon fab fa-twitter"></em></a>
 						</li>
 						<li>
-							<a href="#"><em class="social-icon fab fa-telegram"></em></a>
+							<a target="_blank" href="<?= $tokenConfig->telegram ?>"><em class="social-icon fab fa-telegram"></em></a>
 						</li>
 					</ul>
 					<p class="copyright-text copyright-text-s3">

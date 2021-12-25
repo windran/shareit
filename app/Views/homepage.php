@@ -91,10 +91,10 @@
 							<div class="cpn-action">
 								<ul class="btn-grp mx-auto">
 									<li class="animated" data-animate="fadeInUp" data-delay="0.9">
-										<a href="#" class="btn btn-primary btn-round">BUY COINS</a>
+										<a target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=<?= $tokenInfo->contract_address ?>" class="btn btn-primary btn-round">BUY COINS</a>
 									</li>
 									<li class="animated" data-animate="fadeInUp" data-delay="1">
-										<a href="#tokensale" class="menu-link btn btn-round btn-outline btn-primary">CHART</a>
+										<a target="_blank" href="https://poocoin.app/tokens/<?= $tokenInfo->contract_address ?>" class="menu-link btn btn-round btn-outline btn-primary">CHART</a>
 									</li>
 								</ul>
 							</div>
@@ -131,8 +131,8 @@
 							</div>
 							<div class="col-sm-5">
 								<ul class="social-links social-links-s2 justify-content-center justify-content-sm-end animated" data-animate="fadeInUp" data-delay="1">
-									<li><a href="#"><em class="fab fa-twitter"></em></a></li>
-									<li><a href="#"><em class="fab fa-telegram"></em></a></li>
+									<li><a target="_blank" href="<?= $tokenConfig->twitter ?>"><em class="fab fa-twitter"></em></a></li>
+									<li><a target="_blank" href="<?= $tokenConfig->telegram ?>"><em class="fab fa-telegram"></em></a></li>
 								</ul>
 							</div>
 						</div>

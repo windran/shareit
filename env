@@ -19,6 +19,8 @@
 #Config\BscTokenConfig.address = 0x31df30b65a70843d5b7577833a5a593f90a7d004
 #Config\BscTokenConfig.name = SHAREit
 #Config\BscTokenConfig.symbol = SHARE
+#Config\BscTokenConfig.twitter = https://twitter.com/shareitcoin
+#Config\BscTokenConfig.telegram = https://t.me/SHAREitGlobal
 
 #--------------------------------------------------------------------
 # APP
