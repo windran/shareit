@@ -27,8 +27,8 @@
 	<!-- Site Title  -->
 	<title>SHAREit - Community Driven Project</title>
 	<!-- Bundle and Base CSS -->
-	<link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
-	<link rel="stylesheet" href="assets/css/style-shareit.css?ver=1930" id="changeTheme">
+	<link rel="stylesheet" href="<?= base_url('') ?>/assets/css/vendor.bundle.css?ver=1930">
+	<link rel="stylesheet" href="<?= base_url('') ?>/assets/css/style-shareit.css?ver=1930" id="changeTheme">
 
 </head>
 
@@ -42,9 +42,9 @@
 					<div class="header-wrap">
 						<!-- Logo @s -->
 						<div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
-							<a href="./" class="logo-link">
-								<img class="logo-dark" src="images/icons/shareit.png" srcset="images/icons/shareit.png 2x" alt="logo">
-								<img class="logo-light" src="images/icons/shareit.png" srcset="images/icons/shareit.png 2x" alt="logo">
+							<a href="<?= route_to('homepage') ?>" class="logo-link">
+								<img class="logo-dark" src="<?= base_url('') ?>/images/icons/shareit.png" srcset="images/icons/shareit.png 2x" alt="logo">
+								<img class="logo-light" src="<?= base_url('') ?>/images/icons/shareit.png" srcset="images/icons/shareit.png 2x" alt="logo">
 							</a>
 						</div>
 
@@ -87,8 +87,12 @@
 							</div>
 							<div class="cpn-action">
 								<ul class="btn-grp mx-auto">
-									<li class="animated" data-animate="fadeInUp" data-delay="0.9"><a href="#" class="btn btn-primary btn-round">BUY COINS</a></li>
-									<li class="animated" data-animate="fadeInUp" data-delay="1"><a href="#tokensale" class="menu-link btn btn-round btn-outline btn-primary">CHART</a></li>
+									<li class="animated" data-animate="fadeInUp" data-delay="0.9">
+										<a href="#" class="btn btn-primary btn-round">BUY COINS</a>
+									</li>
+									<li class="animated" data-animate="fadeInUp" data-delay="1">
+										<a href="#tokensale" class="menu-link btn btn-round btn-outline btn-primary">CHART</a>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -156,7 +160,7 @@
 						<div class="row justify-content-between align-items-center gutter-vr-40px">
 							<div class="col-lg-6 order-lg-last">
 								<div class="gfx py-4 animated" data-animate="fadeInUp" data-delay="0.2">
-									<img src="images/icons/shareit-logo.png" alt="gfx">
+									<img src="<?= base_url('') ?>/images/icons/shareit-logo.png" alt="gfx">
 								</div>
 							</div>
 							<div class="col-lg-5">
@@ -210,7 +214,7 @@
 									<div class="col-lg-6 order-lg-last">
 										<div class="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
 											<div class="nk-circle-animation nk-df-center fast"></div><!-- .circle-animation -->
-											<img class="shadow rounded" src="images/event/share.png" alt="">
+											<img class="shadow rounded" src="<?= base_url('') ?>/images/event/share.png" alt="">
 										</div>
 									</div>
 									<div class="col-lg-5">
@@ -258,7 +262,7 @@
 									<div class="col-lg-6 order-lg-last">
 										<div class="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
 											<div class="nk-circle-animation nk-df-center fast"></div><!-- .circle-animation -->
-											<img class="shadow rounded" src="images/event/hold.png" alt="">
+											<img class="shadow rounded" src="<?= base_url('') ?>/images/event/hold.png" alt="">
 										</div>
 									</div>
 									<div class="col-lg-5">
@@ -538,7 +542,7 @@
 							<div class="col-sm-6 col-lg-12">
 								<div class="doc animated" data-animate="fadeInUp" data-delay="0.3">
 									<div class="doc-photo doc-shape doc-shape-a">
-										<img src="images/shareit/doc-a.jpg" alt="">
+										<img src="<?= base_url('') ?>/images/shareit/doc-a.jpg" alt="">
 									</div>
 									<div class="doc-text">
 										<h5 class="doc-title title-sm">Whitepaper <small>(2021)</small></h5>
@@ -570,12 +574,12 @@
 		</div>
 	</div>
 	<!-- preloader -->
-	<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/icons/shareit.png" alt=""></span></div>
+	<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="<?= base_url('') ?>/images/icons/shareit.png" alt=""></span></div>
 
 	<!-- JavaScript -->
-	<script src="assets/js/jquery.bundle.js?ver=1930"></script>
-	<script src="assets/js/scripts.js?ver=1930"></script>
-	<script src="assets/js/charts.js"></script>
+	<script src="<?= base_url('') ?>/assets/js/jquery.bundle.js?ver=1930"></script>
+	<script src="<?= base_url('') ?>/assets/js/scripts.js?ver=1930"></script>
+	<script src="<?= base_url('') ?>/assets/js/charts.js"></script>
 </body>
 
 </html
