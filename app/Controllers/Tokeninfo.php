@@ -19,21 +19,33 @@ class Tokeninfo extends BaseController
             mkdir($DIR_PATH);
         }
 
+        $tokenConfig = new BscTokenConfig();
+
+        $tokenData = new Entity();
+        $tokenData->contract_address = $tokenConfig->address;
+        $tokenData->name = '';
+        $tokenData->symbol = '';
+
+        $tokenData->total_supply = 0;
+        $tokenData->total_holder = 0;
+
+        $tokenData->price = 0;
+        $tokenData->price_updated_at = 0;
+        $tokenData->total_transfer = 0;
+        $tokenData->marketcap = 0;
+
         try {
             $tokenConfig = new BscTokenConfig();
             $contractAddress = $tokenConfig->address;
 
             $client = new \GuzzleHttp\Client();
             $response = $client->request('GET', "https://api.pancakeswap.info/api/v2/tokens/$contractAddress");
-
             $tokenInfo = json_decode($response->getBody());
+            $price = $tokenInfo->data->price;
 
             $lastPriceUpdate = Time::createFromTimestamp($tokenInfo->updated_at / 1000);
-
             $tokenName = $tokenInfo->data->name;
             $tokenSymbol = $tokenInfo->data->symbol;
-
-            $price = $tokenInfo->data->price;
             $price = $this->tofloat($price);
 
             $client = new Client(HttpClient::create(['timeout' => 60]));
@@ -60,7 +72,6 @@ class Tokeninfo extends BaseController
             $totalTransfer = string($content)->between('var totaltxns =', ';')->trim()->replace("'", "") . "";
             $totalTransfer = $this->tofloat($totalTransfer);
 
-            $tokenData = new Entity();
             $tokenData->contract_address = $contractAddress;
             $tokenData->name = $tokenName;
             $tokenData->symbol = $tokenSymbol;
@@ -73,14 +84,14 @@ class Tokeninfo extends BaseController
             $tokenData->total_transfer = $totalTransfer;
             $tokenData->marketcap = $marketCap;
 
-            file_put_contents($FILE_PATH, json_encode($tokenData));
-
             // $contents = file_get_contents($FILE_PATH);
             // var_dump(json_decode($contents, true));
             // log_message('info', 'update token success');
         } catch (\Throwable $th) {
             log_message('error', 'update token data failed');
         }
+
+        file_put_contents($FILE_PATH, json_encode($tokenData));
     }
 
     private function tofloat($num)
