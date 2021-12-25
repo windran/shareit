@@ -383,12 +383,7 @@
 												<h4 class="token-info-des">BSC</h4>
 											</div>
 										</div>
-										<div class="col-6 col-xxl-6 col-lg-3">
-											<div class="token-info-item color-4 animated" data-animate="fadeInUp" data-delay="0.85">
-												<div class="token-info-title">Marketcap</div>
-												<h4 class="token-info-des"> <?= $tokenInfo->marketcap ?></h4>
-											</div>
-										</div>
+										
 										<div class="col-6 col-xxl-6 col-lg-3">
 											<div class="token-info-item color-4 animated" data-animate="fadeInUp" data-delay="0.85">
 												<div class="token-info-title">Holders</div>
