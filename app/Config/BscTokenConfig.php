@@ -6,5 +6,5 @@ use CodeIgniter\Config\BaseConfig;
 
 class BscTokenConfig extends BaseConfig
 {
-    public $address  = '0xbddcfdca3041243a1f2062fea832a1331909a6bf';
+    public $address  = '0x31df30b65a70843d5b7577833a5a593f90a7d004';
 }
