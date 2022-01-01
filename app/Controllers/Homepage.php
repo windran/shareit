@@ -15,6 +15,6 @@ class Homepage extends BaseController
 
         $tokenConfig = new BscTokenConfig();
         $vars['tokenConfig'] = $tokenConfig;
-        return view('homepage', $vars);
+        return view('homepagenew', $vars);
     }
 }

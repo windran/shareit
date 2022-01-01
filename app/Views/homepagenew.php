@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" class="js">
+
 <head>
     <meta charset="utf-8">
     <meta name="author" content="SHARE">
@@ -163,17 +164,18 @@ bitcoin z token,
 coin erc20,
 new cryptocurrency token 2021">
     <!-- Fav Icon  -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url('') ?>/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= base_url('') ?>/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url('') ?>/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?= base_url('') ?>/site.webmanifest">
     <!-- Site Title  -->
     <title>SHARE Coin - Community Driven Project</title>
     <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
-    <link rel="stylesheet" href="assets/css/style-shareit.css?ver=1930" id="changeTheme">
+    <link rel="stylesheet" href="<?= base_url('') ?>/assets/css/vendor.bundle.css?ver=1930">
+    <link rel="stylesheet" href="<?= base_url('') ?>/assets/css/style-shareit.css?ver=1930" id="changeTheme">
 
 </head>
+
 <body class="nk-body body-wider bg-theme mode-onepage">
 
     <div class="nk-wrap">
@@ -184,9 +186,9 @@ new cryptocurrency token 2021">
                     <div class="header-wrap">
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
-                            <a href="./" class="logo-link">
-                                <img class="logo-dark" src="images/icons/shareit.png" srcset="images/icons/shareit.png 2x" alt="logo">
-                                <img class="logo-light" src="images/icons/shareit.png" srcset="images/icons/shareit.png 2x" alt="logo">
+                            <a href="<?= route_to('homepage') ?>" class="logo-link">
+                                <img class="logo-dark" src="<?= base_url('') ?>/images/icons/shareit.png" srcset="<?= base_url('') ?>/images/icons/shareit.png 2x" alt="logo">
+                                <img class="logo-light" src="<?= base_url('') ?>/images/icons/shareit.png" srcset="<?= base_url('') ?>/images/icons/shareit.png 2x" alt="logo">
                             </a>
                         </div>
 
@@ -298,7 +300,7 @@ new cryptocurrency token 2021">
                         <div class="row justify-content-between align-items-center gutter-vr-40px">
                             <div class="col-lg-6 order-lg-last">
                                 <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay="0.2">
-                                    <img src="images/icons/shareit-logo.png" alt="gfx">
+                                    <img src="<?= base_url('') ?>/images/icons/shareit-logo.png" alt="gfx">
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -352,7 +354,7 @@ new cryptocurrency token 2021">
                                     <div class="col-lg-6 order-lg-last">
                                         <div class="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
                                             <div class="nk-circle-animation nk-df-center fast"></div><!-- .circle-animation -->
-                                            <img class="shadow rounded" src="images/event/share.png" alt="">
+                                            <img class="shadow rounded" src="<?= base_url('') ?>/images/event/share.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
@@ -400,7 +402,7 @@ new cryptocurrency token 2021">
                                     <div class="col-lg-6 order-lg-last">
                                         <div class="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
                                             <div class="nk-circle-animation nk-df-center fast"></div><!-- .circle-animation -->
-                                            <img class="shadow rounded" src="images/event/hold.png" alt="">
+                                            <img class="shadow rounded" src="<?= base_url('') ?>/images/event/hold.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
@@ -567,11 +569,11 @@ new cryptocurrency token 2021">
                                     <h5 class="title title-sm roadmap-date">Dec 2021</h5>
                                     <div class="roadmap-text">
                                         <ul>
-                                            <li>•	Whitepaper and Roadmap</li>
-                                            <li>•	Smart Contract Stealth Launching</li>
-                                            <li>•	Early Marketing & Promotion</li>
-                                            <li>•	Holders Target 300</li>
-                                            <li>•	Market Cap 50K</li>
+                                            <li>• Whitepaper and Roadmap</li>
+                                            <li>• Smart Contract Stealth Launching</li>
+                                            <li>• Early Marketing & Promotion</li>
+                                            <li>• Holders Target 300</li>
+                                            <li>• Market Cap 50K</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -580,10 +582,10 @@ new cryptocurrency token 2021">
                                     <h5 class="title title-sm roadmap-date">Jan 2022</h5>
                                     <div class="roadmap-text">
                                         <ul>
-                                            <li>•	Promotion on Twitter by Influencers</li>
-                                            <li>•	Holders Target 1500</li>
-                                            <li>•	Market Cap 250K</li>
-                                            <li>•	Applying CoinGecko and CoinMarketCap</li>
+                                            <li>• Promotion on Twitter by Influencers</li>
+                                            <li>• Holders Target 1500</li>
+                                            <li>• Market Cap 250K</li>
+                                            <li>• Applying CoinGecko and CoinMarketCap</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -592,10 +594,10 @@ new cryptocurrency token 2021">
                                     <h5 class="title title-sm roadmap-date">Feb 2022</h5>
                                     <div class="roadmap-text">
                                         <ul>
-                                            <li>•	Promotion by Google Ads, Facebook Ads, and Youtube Ads</li>
-                                            <li>•	Holders Target 3000</li>
-                                            <li>•	Market Cap 1.5M</li>
-                                            <li>•	Applying TechRate Audit </li>
+                                            <li>• Promotion by Google Ads, Facebook Ads, and Youtube Ads</li>
+                                            <li>• Holders Target 3000</li>
+                                            <li>• Market Cap 1.5M</li>
+                                            <li>• Applying TechRate Audit </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -604,10 +606,10 @@ new cryptocurrency token 2021">
                                     <h5 class="title title-sm roadmap-date">Mar 2022</h5>
                                     <div class="roadmap-text">
                                         <ul>
-                                            <li>•	Marketing & Promotion</li>
-                                            <li>•	Holders Target 6000</li>
-                                            <li>•	Market Cap 4M</li>
-                                            <li>•	Community on Project Progress Review</li>
+                                            <li>• Marketing & Promotion</li>
+                                            <li>• Holders Target 6000</li>
+                                            <li>• Market Cap 4M</li>
+                                            <li>• Community on Project Progress Review</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -616,11 +618,11 @@ new cryptocurrency token 2021">
                                     <h5 class="title title-sm roadmap-date">Apr - Jun 2022</h5>
                                     <div class="roadmap-text">
                                         <ul>
-                                            <li>•	Holders Target 12000</li>
-                                            <li>•	Applying CERTIK Audit</li>
-                                            <li>•	Market Cap 20M</li>
-                                            <li>•	Applying 2 CEX listing (big 20 CEX)</li>
-                                            <li>•	Community on Project Progress Review</li>
+                                            <li>• Holders Target 12000</li>
+                                            <li>• Applying CERTIK Audit</li>
+                                            <li>• Market Cap 20M</li>
+                                            <li>• Applying 2 CEX listing (big 20 CEX)</li>
+                                            <li>• Community on Project Progress Review</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -629,11 +631,11 @@ new cryptocurrency token 2021">
                                     <h5 class="title title-sm roadmap-date">Jul - Sep 2022</h5>
                                     <div class="roadmap-text">
                                         <ul>
-                                            <li>•	Holders Target 12000</li>
-                                            <li>•	Create new Android and IOS team for Apps / Games</li>
-                                            <li>•	Market Cap 100M</li>
-                                            <li>•	Applying 2 CEX listing (big 10 CEX)</li>
-                                            <li>•	Community on Project Progress Review</li>
+                                            <li>• Holders Target 12000</li>
+                                            <li>• Create new Android and IOS team for Apps / Games</li>
+                                            <li>• Market Cap 100M</li>
+                                            <li>• Applying 2 CEX listing (big 10 CEX)</li>
+                                            <li>• Community on Project Progress Review</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -642,10 +644,10 @@ new cryptocurrency token 2021">
                                     <h5 class="title title-sm roadmap-date">Oct - Dec 2022</h5>
                                     <div class="roadmap-text">
                                         <ul>
-                                            <li>•	Mobile App Launch & several updates </li>
-                                            <li>•	Holders Target 60000</li>
-                                            <li>•	Market Cap 500M</li>
-                                            <li>•	Community on Project Progress Review [next is to be decided by community]</li>
+                                            <li>• Mobile App Launch & several updates </li>
+                                            <li>• Holders Target 60000</li>
+                                            <li>• Market Cap 500M</li>
+                                            <li>• Community on Project Progress Review [next is to be decided by community]</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -656,82 +658,83 @@ new cryptocurrency token 2021">
 
             </section>
             <!-- // -->
-    <section class="section" id="partners">
-            <div class="nk-block block-partners">
-                <h6 class="title title-md ttu text-center animated" data-animate="fadeInUp" data-delay="0.65">Our Partners</h6>
-                <ul class="has-carousel partner-list justify-content-center animated" data-items="7" data-items-mobile="2" data-auto="true" data-loop="true" data-animate="fadeInUp" data-delay="0.75">
-                    <li class="partner-logo"><a href="https://charts.bogged.finance/?c=bsc&t=0x31Df30b65a70843D5B7577833a5A593f90a7d004" target="_blank"><img src="images/partners/bogtools.png" alt=""></a></li>
-                    <li class="partner-logo"><a href="https://nomics.com/assets/share4-shareit" target="_blank"><img src="images/partners/nomics.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://coinhunt.cc/coin/1267922432" target="_blank"><img src="images/partners/coinhunt.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://coinsniper.net/coin/22810" target="_blank"><img src="images/partners/coinsniper.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://www.coinscope.co/coin/share" target="_blank"><img src="images/partners/coinscope.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://watcher.guru/coin/shareit" target="_blank"><img src="images/partners/watcherguru.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://www.dextools.io/app/bsc/pair-explorer/0xfb54f5f51a89ab79e8adf92300cbb4ed6a76abce" target="_blank"><img src="images/partners/dextool.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://coinmooner.com/coin/9435" target="_blank"><img src="images/partners/coinmooner.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://coinalpha.app/new-born/0x31df30b65a70843d5b7577833a5a593f90a7d004" target="_blank"><img src="images/partners/coinalpha.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://coinhunters.cc/tokens/SHAREit" target="_blank"><img src="images/partners/coinhunters.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://coindiscovery.app/coin/shareit" target="_blank"><img src="images/partners/coindiscovery.png" alt="partner"></a></li>
-                    <li class="partner-logo"><a href="https://www.rugfreecoins.com/details/6625" target="_blank"><img src="images/partners/rugfreecoins.png" alt="partner"></a></li>
-                </ul>
-            </div>
-
-    </section>
-
-    <section class="section" id="docs">
-
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-6">
-                    <div class="section-head section-head-s2">
-                        <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Downloads">DOCUMENTS</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay="0.2">Download the whitepaper and learn about SHARE Token.</p>
-                    </div>
+            <section class="section" id="partners">
+                <div class="nk-block block-partners">
+                    <h6 class="title title-md ttu text-center animated" data-animate="fadeInUp" data-delay="0.65">Our Partners</h6>
+                    <ul class="has-carousel partner-list justify-content-center animated" data-items="7" data-items-mobile="2" data-auto="true" data-loop="true" data-animate="fadeInUp" data-delay="0.75">
+                        <li class="partner-logo"><a href="https://charts.bogged.finance/?c=bsc&t=0x31Df30b65a70843D5B7577833a5A593f90a7d004" target="_blank"><img src="<?= base_url('') ?>/images/partners/bogtools.png" alt=""></a></li>
+                        <li class="partner-logo"><a href="https://nomics.com/assets/share4-shareit" target="_blank"><img src="<?= base_url('') ?>/images/partners/nomics.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://coinhunt.cc/coin/1267922432" target="_blank"><img src="<?= base_url('') ?>/images/partners/coinhunt.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://coinsniper.net/coin/22810" target="_blank"><img src="<?= base_url('') ?>/images/partners/coinsniper.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://www.coinscope.co/coin/share" target="_blank"><img src="<?= base_url('') ?>/images/partners/coinscope.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://watcher.guru/coin/shareit" target="_blank"><img src="<?= base_url('') ?>/images/partners/watcherguru.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://www.dextools.io/app/bsc/pair-explorer/0xfb54f5f51a89ab79e8adf92300cbb4ed6a76abce" target="_blank"><img src="<?= base_url('') ?>/images/partners/dextool.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://coinmooner.com/coin/9435" target="_blank"><img src="images/partners/coinmooner.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://coinalpha.app/new-born/0x31df30b65a70843d5b7577833a5a593f90a7d004" target="_blank"><img src="<?= base_url('') ?>/images/partners/coinalpha.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://coinhunters.cc/tokens/SHAREit" target="_blank"><img src="<?= base_url('') ?>/images/partners/coinhunters.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://coindiscovery.app/coin/shareit" target="_blank"><img src="<?= base_url('') ?>/images/partners/coindiscovery.png" alt="partner"></a></li>
+                        <li class="partner-logo"><a href="https://www.rugfreecoins.com/details/6625" target="_blank"><img src="<?= base_url('') ?>/images/partners/rugfreecoins.png" alt="partner"></a></li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-        <div class="container container-xxl">
-            <div class="nk-block">
-                <div class="row gutter-vr-50px">
-                    <div class="col-sm-6 col-lg-12">
-                        <div class="doc animated" data-animate="fadeInUp" data-delay="0.3">
-                            <div class="doc-photo doc-shape doc-shape-a">
-                                <img src="images/shareit/doc-a.jpg" alt="">
-                            </div>
-                            <div class="doc-text">
-                                <h5 class="doc-title title-sm">Whitepaper <small>(2021)</small></h5>
-                                <a class="doc-download" href="/whitepaper.pdf" target="_blank"><em class="ti ti-import"></em></a>
-                                <div class="doc-lang">ENGLISH</div>
+
+            </section>
+
+            <section class="section" id="docs">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Downloads">DOCUMENTS</h2>
+                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">Download the whitepaper and learn about SHARE Token.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row gutter-vr-50px">
+                            <div class="col-sm-6 col-lg-12">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.3">
+                                    <div class="doc-photo doc-shape doc-shape-a">
+                                        <img src="<?= base_url('') ?>/images/shareit/doc-a.jpg" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Whitepaper <small>(2021)</small></h5>
+                                        <a class="doc-download" href="<?= base_url('') ?>/whitepaper.pdf" target="_blank"><em class="ti ti-import"></em></a>
+                                        <div class="doc-lang">ENGLISH</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    </section>
-    <!-- // -->
-    </main>
+            </section>
+            <!-- // -->
+        </main>
 
-    <footer class="nk-footer-bar section section-s tc-light">
-        <div class="container container-xxl">
-            <div class="row gutter-vr-10px">
-                <div class="col-lg-6">
-                    <div class="copyright-text copyright-text-s2">Copyright © 2021 SHARE.</div>
+        <footer class="nk-footer-bar section section-s tc-light">
+            <div class="container container-xxl">
+                <div class="row gutter-vr-10px">
+                    <div class="col-lg-6">
+                        <div class="copyright-text copyright-text-s2">Copyright © 2021 SHARE.</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <div class="nk-ovm nk-ovm-repeat nk-ovm-fixed shape-i">
-        <div class="ovm-line"></div>
-    </div>
+        <div class="nk-ovm nk-ovm-repeat nk-ovm-fixed shape-i">
+            <div class="ovm-line"></div>
+        </div>
     </div>
     <!-- preloader -->
-    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/icons/shareit.png" alt=""></span></div>
+    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="<?= base_url('') ?>/images/icons/shareit.png" alt=""></span></div>
 
     <!-- JavaScript -->
-    <script src="assets/js/jquery.bundle.js?ver=1930"></script>
-    <script src="assets/js/scripts.js?ver=1930"></script>
-    <script src="assets/js/charts.js"></script>
+    <script src="<?= base_url('') ?>/assets/js/jquery.bundle.js?ver=1930"></script>
+    <script src="<?= base_url('') ?>/assets/js/scripts.js?ver=1930"></script>
+    <script src="<?= base_url('') ?>/assets/js/charts.js"></script>
 </body>
+
 </html>
