@@ -268,8 +268,8 @@ new cryptocurrency token 2021">
                             </div>
                             <div class="col-sm-5">
                                 <ul class="social-links social-links-s2 justify-content-center justify-content-sm-end animated" data-animate="fadeInUp" data-delay="1">
-                                    <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    <li><a href="#"><em class="fab fa-telegram"></em></a></li>
+                                    <li><a target="_blank" href="<?= $tokenConfig->twitter ?>"><em class="fab fa-twitter"></em></a></li>
+                                    <li><a target="_blank" href="<?= $tokenConfig->telegram ?>"><em class="fab fa-telegram"></em></a></li>
                                 </ul>
                             </div>
                         </div>
