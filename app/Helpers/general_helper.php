@@ -36,7 +36,7 @@ function getTokenInfo()
             $tokenInfo = json_decode($fileContent, true);
             $tokenEntity->fill($tokenInfo);
 
-            cache()->save('token_info', $tokenInfo, 120);
+            cache()->save('token_info', $tokenInfo, 60);
         } catch (\Throwable $th) {
         }
     } else {

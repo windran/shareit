@@ -231,8 +231,12 @@ new cryptocurrency token 2021">
                             </div>
                             <div class="cpn-action">
                                 <ul class="btn-grp mx-auto">
-                                    <li class="animated" data-animate="fadeInUp" data-delay="0.9"><a href="#" class="btn btn-primary btn-round">BUY COINS</a></li>
-                                    <li class="animated" data-animate="fadeInUp" data-delay="1"><a href="#tokensale" class="menu-link btn btn-round btn-outline btn-primary">CHART</a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="0.9">
+                                        <a target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=<?= $tokenInfo->contract_address ?>" class="btn btn-primary btn-round">BUY COINS</a>
+                                    </li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="1">
+                                        <a target="_blank" href="https://poocoin.app/tokens/<?= $tokenInfo->contract_address ?>" class="menu-link btn btn-round btn-outline btn-primary">CHART</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
