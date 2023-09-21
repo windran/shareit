@@ -1,63 +1,28 @@
-# CodeIgniter 4 Application Starter
+Bryans Trans Indonesia: Pilihan Terbaik untuk [Rental Mobil di Jakarta](https://bryanstransindonesia.com/rental-mobil-jakarta/)
 
-## What is CodeIgniter?
+Apakah Anda mencari layanan rental mobil terbaik di Jakarta? Jika ya, Bryans Trans Indonesia adalah solusi terdepan untuk semua kebutuhan mobilitas Anda. Dalam artikel ini, kami akan mengungkapkan mengapa Bryans Trans Indonesia adalah pilihan utama untuk rental mobil di ibu kota.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Bryans Trans Indonesia
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+1. Armada Kendaraan Terlengkap
+Bryans Trans Indonesia memiliki armada kendaraan yang beragam, mencakup berbagai jenis mobil mulai dari sedan mewah hingga SUV yang nyaman. Dengan banyaknya pilihan kendaraan, Anda dapat dengan mudah menemukan mobil yang sesuai dengan kebutuhan perjalanan Anda, baik itu untuk perjalanan bisnis, liburan keluarga, atau acara khusus.
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+2. Pelayanan Profesional
+Kualitas pelayanan adalah prioritas utama Bryans Trans Indonesia. Tim profesional kami selalu siap memberikan bantuan terbaik kepada Anda. Ketika Anda memilih kami, Anda dapat mengharapkan sopir yang berpengalaman, ramah, dan selalu siap membantu Anda selama perjalanan.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+3. Harga Terjangkau
+Kami memahami pentingnya nilai uang Anda. Oleh karena itu, Bryans Trans Indonesia menawarkan harga rental mobil yang sangat kompetitif di Jakarta. Kami berkomitmen untuk memberikan penawaran yang adil dan transparan kepada pelanggan kami.
 
-## Installation & updates
+4. Kemudahan Pemesanan
+Pemesanan mobil bersama Bryans Trans Indonesia sangatlah mudah. Anda dapat melakukan pemesanan secara online melalui situs web kami atau menghubungi tim layanan pelanggan kami. Kami akan dengan senang hati membantu Anda memilih kendaraan yang tepat dan mengatur semua detail perjalanan Anda.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+5. Keamanan dan Kebersihan
+Kami mengutamakan keamanan dan kebersihan kendaraan kami. Setiap mobil dalam armada kami menjalani pemeliharaan rutin dan pembersihan menyeluruh sebelum setiap perjalanan. Keamanan dan kenyamanan Anda adalah prioritas utama kami.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+6. Fleksibilitas Jadwal
+Kami memahami bahwa rencana perjalanan Anda mungkin berubah. Oleh karena itu, kami menawarkan fleksibilitas dalam jadwal perjalanan Anda. Jika Anda memerlukan perubahan, kami akan berusaha semaksimal mungkin untuk memenuhi permintaan Anda.
 
-## Setup
+Pilih Bryans Trans Indonesia untuk Pengalaman Rental Mobil Terbaik di Jakarta
+Dengan Bryans Trans Indonesia, Anda tidak hanya mendapatkan kendaraan berkualitas tinggi, tetapi juga pengalaman rental mobil yang tak terlupakan. Kami bangga menjadi mitra mobilitas Anda di Jakarta dan siap membantu Anda menjalani perjalanan dengan lancar dan nyaman.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+Jangan ragu untuk menghubungi kami atau kunjungi situs web kami untuk melakukan pemesanan dan mengetahui lebih lanjut tentang penawaran kami. Bryans Trans Indonesia adalah pilihan yang tepat untuk rental mobil di Jakarta, dan kami berharap dapat melayani Anda dalam perjalanan berikutnya!
