@@ -1,25 +1,11 @@
-# .readthedocs.yml
-# Read the Docs configuration file
-# Referensi: https://docs.readthedocs.io/en/stable/config-file/v2.html
-
 version: 2
-
 build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
-
 python:
   install:
     - method: pip
-      requirements: docs/requirements.txt  # Jika ada, otomatis install
-
+      requirements: docs/requirements.txt
 sphinx:
   configuration: docs/conf.py
-  builder: html  # Bisa diganti ke dirhtml/pdf/epub sesuai kebutuhan
-  fail_on_warning: false  # Hindari gagal build karena peringatan kecil
-
-# Optional output formats
-# formats:
-#   - pdf
-#   - epub
