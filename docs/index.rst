@@ -1,8 +1,16 @@
-Welcome to Share It Docs
-=========================
+.. ShareIt documentation master file
+
+Welcome to ShareIt Documentation!
+=================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-This is the documentation for the Share It project.
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
