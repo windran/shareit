@@ -1,10 +1,8 @@
-Welcome to Share It's documentation!
-=====================================
+Welcome to Share It Docs
+=========================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   introduction
-   usage
-   api
+This is the documentation for the Share It project.
